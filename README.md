@@ -16,6 +16,7 @@ dtoverlay=i2c6
 dtoverlay=i2c-fan,i2c6,emc2301
 ```
   - 3. sudo i2cdetect -y 5 you will see addr:28
+  - 4. pip3 install adafruit-circuitpython-bno055
 
 
 ## 1.Calibrate: 
