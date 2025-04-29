@@ -15,6 +15,7 @@ dtoverlay=i2c5,pins_10_11
 dtoverlay=i2c6
 dtoverlay=i2c-fan,i2c6,emc2301
 ```
+  - 3. sudo i2cdetect -y 5 you will see addr:28
 
 
 ## 1.Calibrate: 
