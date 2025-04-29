@@ -1,7 +1,10 @@
 # imu_bno055_py
 ## 0.config:
-  ### 1. sudo nano /boot/firmware/config.txt
-  ### 2. 
+  - 1.
+      ```
+      sudo nano /boot/firmware/config.txt
+      ```
+  - 2. 
 ```
 dtparam=audio=on
 dtparam=i2c_arm=on
