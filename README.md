@@ -36,4 +36,7 @@ run this file -> /Adafruit_CircuitPython_BNO055/examples/bno055_calibrator.py
 
 ## 3. RUN NODE: 
   ### 3.1 cd name_ws
-  ### 3.2 ros2 run bno055 bno055 --ros-args --params-file ./src/bno055/bno055/params/bno055_params_i2c.yaml
+  ### 3.2 
+  ```
+  ros2 run bno055 bno055 --ros-args --params-file ./src/bno055/bno055/params/bno055_params_i2c.yaml
+  ```
