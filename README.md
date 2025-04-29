@@ -17,6 +17,16 @@ dtoverlay=i2c-fan,i2c6,emc2301
 ```
   - 3. sudo i2cdetect -y 5 you will see addr:28
   - 4. pip3 install adafruit-circuitpython-bno055
+  - 5. add I2C ports in file: ~/.local/lib/python3.10/site-packages/adafruit_blinka/microcontroller/bcm2711/pin.py
+       ```
+       i2cPorts = (
+        (1, SCL, SDA),
+        (0, D1, D0),  # both pi 1 and pi 2 i2c ports!
+        (10, D45, D44),  # internal i2c bus for the CM4
+        (5, D11, D10) # <<< add this line
+       )
+       ```
+    
 
 
 ## 1.Calibrate: 
